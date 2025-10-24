@@ -3,7 +3,19 @@
 /* button elements should have unique classes. Rules that are common between the classes should be grouped, unique ones should not. */
 
 /* Common elements - 28px font, font list is Helvetica, Times New Roman, sans-serif as fallback */
+.button1,
+.button2 {
+    font-size: 28px;
+    font-family: Helvetica, Times New Roman, sans-serif;
+}
 
 /* button 1 elements - black bg, white text */
+.button1 {
+    background-color: black;
+    color: white;
+}
 
 /* button 2 elements - yellow bg */
+.button2 {
+    background-color: yellow;
+}
