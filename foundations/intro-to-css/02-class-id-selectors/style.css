@@ -1,1 +1,26 @@
 /* Add CSS Styling */
+
+/* All odd elements are "p", can have basic rules apply to all "p" elements with class odd */
+
+.odd {
+    background-color: pink;
+
+    /* control fonts using "font-family */
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+.adjust-font-size {
+    font-size: 24px;
+}
+
+#id-two {
+    color: blue;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+#id-four {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
