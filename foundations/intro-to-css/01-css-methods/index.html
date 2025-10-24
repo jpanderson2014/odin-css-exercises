@@ -2,6 +2,17 @@
 <html lang="en">
 
 <head>
+  <!-- add link element for external CSS file "styles.css", used for styling div element -->
+  <link rel="stylesheet" href="./styles.css">
+
+  <!-- add "style" element for internal CSS used to style "p" element -->
+  <style>
+    div {
+      background-color: green;
+      color: white;
+      font-size: 18;
+    }
+  </style>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,7 +28,7 @@
   <!-- p element should be styled with internal method -->
   <button>Inline Method</button>
   <!-- orange background, size 18. (black text) -->
-  <!-- inline method vs internal method: inline adds directly to element, internal uses "style" elements declared above "head" elements -->
+  <!-- inline method vs internal method: inline adds directly to element, internal uses "style" elements declared inside of the "head" element -->
 </body>
 
 </html>

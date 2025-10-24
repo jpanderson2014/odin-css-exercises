@@ -1,0 +1,10 @@
+/* This styles.css is used for external CSS for index.html in exercise 1.
+Only the "div" element should be styled externally for this exercise */
+
+div {
+    color: white;
+    background-color: red;
+    font-size: 32;
+    font-weight: bold;
+    text-align: center;
+}
