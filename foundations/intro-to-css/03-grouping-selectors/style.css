@@ -1,1 +1,9 @@
 /* Add CSS Styling */
+
+/* button elements should have unique classes. Rules that are common between the classes should be grouped, unique ones should not. */
+
+/* Common elements - 28px font, font list is Helvetica, Times New Roman, sans-serif as fallback */
+
+/* button 1 elements - black bg, white text */
+
+/* button 2 elements - yellow bg */
