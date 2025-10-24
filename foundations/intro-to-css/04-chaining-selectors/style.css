@@ -1,1 +1,14 @@
 /* Add CSS Styling */
+
+/* Classes for elements are "avatar", "original", "proportioned", and "distorted" */
+/* Don't need to make changes to "original" */
+
+.avatar.proportioned {
+    width: 300px;
+    height: auto;
+}
+
+.avatar.distorted {
+    width: 200px;
+    height: 400px;
+}
